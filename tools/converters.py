@@ -1,10 +1,31 @@
+```python
+
 """
-B-Marker Tools - Converters for Creators
-創作者工具層：提供開箱即用的時間轉換函數，解決具體工作流痛點。
-此模組依賴於底層的 `bmarker.core` 協議。
+B-Marker Tools - [Converters for Creators]
+Copyright (c) 2025 B-Marker Development Team.
+
+This source code is governed by the B-Marker Tools Commercial License.
+本原始碼受《B-Marker 工具集商業許可協議》約束。
+
+YOU MAY USE THIS CODE FREELY UNDER THE TERMS OF THE FREE LICENSE GRANTED IN THE
+COMMERCIAL LICENSE AGREEMENT (FOR PERSONAL, NON-COMMERCIAL, OR SMALL-SCALE USE).
+根據《商業許可協議》中授予的免費許可條款，您可以自由使用此代碼（用於個人、非商業或小規模用途）。
+
+IF YOU INTEND TO USE THIS CODE FOR COMMERCIAL PURPOSES AS DEFINED IN THE
+AGREEMENT, YOU MUST OBTAIN A COMMERCIAL USE LICENSE.
+如果您意圖根據協議定義將此代碼用於商業用途，您必須獲取商業使用許可。
+
+For the full license text and contact information, please see:
+詳細許可協議全文與聯繫方式，請參見：
+- The LICENSE-COMMERCIAL.md file in this directory.
+- 本目錄下的 LICENSE-COMMERCIAL.md 文件。
+- https://bmarker.com
+
+Email: dev@b-marker.com (General) / sales@b-marker.com (Commercial)
 """
+
 from typing import Union
-# 導入我們剛剛構建的核心協議
+# 導入bmarker 核心
 from bmarker.core.src import protocol
 
 # 默認參數（符合行業常見標準）
