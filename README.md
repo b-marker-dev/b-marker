@@ -71,7 +71,7 @@ These pure functions form the foundational protocol for converting any time expr
 
 ### 🧩 Core Functions
 
-This core protocol (`bmarker/core/`) is the cornerstone of the entire B-Marker ecosystem:
+This core protocol (`b-marker/core/`) is the cornerstone of the entire B-Marker ecosystem:
 
 - `convert_markers`: converts marker positions between different audio sample rates.
 
@@ -85,9 +85,9 @@ This core protocol (`bmarker/core/`) is the cornerstone of the entire B-Marker e
 
 Pull Requests and Issues are welcome to help us refine this basic grammar of time.
 
-- **Frontier exploration** (`bmarker/pro/`) can conduct advanced experiments on this protocol.
+- **Frontier exploration** (`b-marker/pro/`) can conduct advanced experiments on this protocol.
 
-- **Upper applications** (`bmarker/tools/`) can build creator tools on top of this core.
+- **Upper applications** (`b-marker/tools/`) can build creator tools on top of this core.
 
 ### 🤝 Contribution
 
@@ -115,11 +115,11 @@ B-Marker is a profit-sharing management framework specifically designed for time
 
 ### Core Advantages
 
-1. bmarker-tools (Commercial License): A toolset built on the core module, focusing on practical integration solutions for music tools (e.g., third-party platform integration, enterprise-level customization tools, batch processing plugins). It is free for individual developers and requires paid licensing for commercial use by enterprises.
+1. b-marker-tools (Commercial License): A toolset built on the core module, focusing on practical integration solutions for music tools (e.g., third-party platform integration, enterprise-level customization tools, batch processing plugins). It is free for individual developers and requires paid licensing for commercial use by enterprises.
 
-2. bmarker-core (Open Source, MIT License): The foundational core module of the framework, providing core algorithms and basic functional components related to music tool development (e.g., beat detection, audio data processing, profit-sharing data modeling). It is fully open-source and free for all developers to use, modify, and integrate, laying a solid foundation for collaborative development.
+2. b-marker-core (Open Source, MIT License): The foundational core module of the framework, providing core algorithms and basic functional components related to music tool development (e.g., beat detection, audio data processing, profit-sharing data modeling). It is fully open-source and free for all developers to use, modify, and integrate, laying a solid foundation for collaborative development.
 
-3. bmarker-pro (Subscription License): The premium paid version of the framework, offering advanced value-added features such as cloud synchronization, professional audio analysis, exclusive sound effect libraries, and customized profit-sharing data dashboards. It adopts a tiered subscription model (individual/team/enterprise plans) to meet the diverse needs of professional developers and commercial teams.
+3. b-marker-pro (Subscription License): The premium paid version of the framework, offering advanced value-added features such as cloud synchronization, professional audio analysis, exclusive sound effect libraries, and customized profit-sharing data dashboards. It adopts a tiered subscription model (individual/team/enterprise plans) to meet the diverse needs of professional developers and commercial teams.
 
 ### Target Users
 
@@ -137,11 +137,11 @@ Music tool developers, audio technology enthusiasts, independent developers focu
 
 We welcome developers worldwide to participate in the project's development. For contribution guidelines and detailed profit-sharing information, please refer to the CONTRIBUTING.md and profit-sharing/framework.md files in the repository.
 
-- bmarker-tools: Commercial License (free for individuals, paid for enterprises)
+- b-marker-tools: Commercial License (free for individuals, paid for enterprises)
 
-- bmarker-core: MIT License (open-source, free for all use)
+- b-marker-core: MIT License (open-source, free for all use)
 
-- bmarker-pro: Subscription License (tiered pricing for individuals/teams/enterprises)
+- b-marker-pro: Subscription License (tiered pricing for individuals/teams/enterprises)
 
 # <div align="center">B-Marker README.md 繁體中文版</div>
 <div align="center">B-Marker：聲音，通用的時間語彙（音訊優先，光影與硬體即將到來）</div>
@@ -210,7 +210,7 @@ We welcome developers worldwide to participate in the project's development. For
 
 這一組純函數構成了將各種時間表達（秒、毫秒、音樂節拍）轉換為通用音頻樣本語言的基礎協議。
 
-此核心協議 (`bmarker/core/`) 是整個 B-Marker 生態的基石：
+此核心協議 (`b-marker/core/`) 是整個 B-Marker 生態的基石：
 
 歡迎提交 Pull Request 或 Issue，共同完善這套時間的基礎語法。
 
@@ -250,15 +250,15 @@ B-Marker 是一套專為時間與音訊工具開發者設計的分潤管理框�
 
 ### 📁 專案架構
 
-- **上層應用** (`bmarker/tools/`) 可基於此核心構建創作者工具。
+- **上層應用** (`b-marker/tools/`) 可基於此核心構建創作者工具。
 
-- **前沿探索** (`bmarker/pro/`) 可在此協議上進行高級實驗。
+- **前沿探索** (`b-marker/pro/`) 可在此協議上進行高級實驗。
 
 ### 🤝 貢獻
 
 ---
 
-- 📚`core/`: MIT 授權（开源，免費供所有用途使用）
+- 📚`core/`: MIT 授權（開源，免費供所有用途使用）
 
 - 🔧 `tools/`: 商業授權（個人免費，企業付費）
 
@@ -266,11 +266,11 @@ B-Marker 是一套專為時間與音訊工具開發者設計的分潤管理框�
 
 ---
 
-1. bmarker-core（开源，MIT 授權）：框架的基礎核心模組，提供與音樂工具開發相關的核心演算法與基礎功能元件（如節拍偵測、音訊資料處理、分潤數據建模等）。完全開源免費，供所有開發者使用、修改與整合，為協同開發奠定堅實基礎。
+1. b-marker-core（開源，MIT 授權）：框架的基礎核心模組，提供與音樂工具開發相關的核心演算法與基礎功能元件（如節拍偵測、音訊資料處理、分潤數據建模等）。完全開源免費，供所有開發者使用、修改與整合，為協同開發奠定堅實基礎。
 
-2. bmarker-tools（商業授權）：基於核心模組建構的工具集，聚焦音樂工具的實用整合方案（如第三方平台對接、企業級客製化工具、批次處理外掛等）。個人開發者免費使用，企業商用需支付授權費用。
+2. b-marker-tools（商業授權）：基於核心模組建構的工具集，聚焦音樂工具的實用整合方案（如第三方平台對接、企業級客製化工具、批次處理外掛等）。個人開發者免費使用，企業商用需支付授權費用。
 
-3. bmarker-pro（訂閱制授權）：框架的進階付費版本，提供雲端同步、專業音訊分析、專屬音效庫、自訂分潤數據儀表板等高階增值功能。採用分級訂閱制（個人/團隊/企業方案），满足專業開發者與商業團隊的多元需求。
+3. b-marker-pro（訂閱制授權）：框架的進階付費版本，提供雲端同步、專業音訊分析、專屬音效庫、自訂分潤數據儀表板等高階增值功能。採用分級訂閱制（個人/團隊/企業方案），满足專業開發者與商業團隊的多元需求。
 
 - 公開透明分潤：所有收益來源、分配比例、結算週期全程公開，分潤與貢獻度緊密綁定（包含程式碼開發、測試、文件撰寫、推廣等），確保收益公平分配。
 
@@ -280,9 +280,9 @@ B-Marker 是一套專為時間與音訊工具開發者設計的分潤管理框�
 
 - 標準化协作流程：配備完整的貢獻者協議、PR 模板與 Issue 處理機制，降低协作成本，提升開發效率。
 
-- bmarker-core：MIT 授權（开源，免費供所有用途使用）
+- b-marker-core：MIT 授權（開源，免費供所有用途使用）
 
-- bmarker-tools：商業授權（個人免費，企業付費）
+- b-marker-tools：商業授權（個人免費，企業付費）
 
-- bmarker-pro：訂閱制授權（個人/團隊/企業分級定價）
-> （注：文档部分内容可能由 AI 生成）
+- b-marker-pro：訂閱制授權（個人/團隊/企業分級定價）
+> （注：文檔部分內容可能由 AI 生成）
