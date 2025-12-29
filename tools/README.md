@@ -10,7 +10,7 @@
 
 ## 📜 重要授權說明
 
-**本目錄 (`bmarker/tools/`) 下的所有代碼與資源，均受 [LICENSE-COMMERCIAL.md](./tools/LICENSE-COMMERCIAL.md) 許可協議約束。**
+**本目錄 (`b-marker/tools/`) 下的所有代碼與資源，均受 [LICENSE-COMMERCIAL.md](./tools/LICENSE-COMMERCIAL.md) 許可協議約束。**
 
 ### 您可以免費：
 *   用於 **個人、教育及非商業項目**。
@@ -25,14 +25,14 @@
 **商業許可申請**：請聯繫 dev@b-marker.com 或 sales@b-marker.com。
 
 ## 🔗 項目架構
-- **[`bmarker/core/`](../core/)**：項目的開源核心（MIT協議），定義了「音頻作為時間語言」的基礎協議。
-- **`bmarker/tools/`**：您當前所在目錄，基於核心協議構建的創作者工具集（本商業許可）。
+- **[`b-marker/core/`](../core/)**：項目的開源核心（MIT協議），定義了「音頻作為時間語言」的基礎協議。
+- **`b-marker/tools/`**：您當前所在目錄，基於核心協議構建的創作者工具集（本商業許可）。
 - 了解完整的雙軌架構，請參見項目根目錄的 [README.md](../../README.md)。
 
 ## 🚀 快速開始
 ```python
-# 安裝後（例如：pip install bmarker-tools），或直接從源碼導入
-from bmarker.tools.converters import frames_to_ms, beats_to_ms
+# 安裝後（例如：pip install b-marker-tools），或直接從源碼導入
+from b-marker.tools.converters import frames_to_ms, beats_to_ms
 
 print(frames_to_ms(24, fps=24.0))  # 輸出: 1000.0
 print(beats_to_ms(4, bpm=120.0))   # 輸出: 2000.0
