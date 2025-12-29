@@ -19,14 +19,14 @@ For the full license text and contact information, please see:
 詳細許可協議全文與聯繫方式，請參見：
 - The LICENSE-COMMERCIAL.md file in this directory.
 - 本目錄下的 LICENSE-COMMERCIAL.md 文件。
-- https://bmarker.com
+- https://b-marker.com
 
 Email: dev@b-marker.com (General) / sales@b-marker.com (Commercial)
 """
 
 from typing import Union
-# 導入bmarker 核心
-from bmarker.core.src import protocol
+# 導入b-marker 核心
+from b-marker.core.src import protocol
 
 # 默認參數（符合行業常見標準）
 _DEFAULT_FPS = 24.0      # 標準影片幀率
