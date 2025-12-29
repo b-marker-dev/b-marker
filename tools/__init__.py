@@ -7,7 +7,7 @@ This package is governed by the B-Marker Tools Commercial License.
 For details, see LICENSE-COMMERCIAL.md in this directory or visit https://b-marker.com.
 Commercial inquiries: sales@b-marker.com
 """
-# bmarker/tools/__init__.py
+# b-marker/tools/__init__.py
 from .converters import (
     frames_to_ms,
     beats_to_ms,
