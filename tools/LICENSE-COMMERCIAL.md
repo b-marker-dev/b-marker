@@ -2,7 +2,7 @@ B-Marker Tools Commercial License Agreement Version 1.1
 (Open-Core with Commercial License Model)
 
 THIS COMMERCIAL LICENSE AGREEMENT ("AGREEMENT") IS A LEGAL AGREEMENT BETWEEN
-YOU (EITHER AN INDIVIDUAL OR A SINGLE ENTITY) AND THE BMARKER PROJECT ("LICENSOR").
+YOU (EITHER AN INDIVIDUAL OR A SINGLE ENTITY) AND THE B-MARKER PROJECT ("LICENSOR").
 
 PREAMBLE / 序言
 -----------------------------------------------------------------------
@@ -17,13 +17,13 @@ B-Marker 工具集建立在「音頻作為時間語言」的開源核心哲學�
 
 1. DEFINITIONS & SCOPE / 定義與範圍
    1.1. "Software" or "Tools" refers specifically to the source code, binaries, and 
-        documentation contained within the `bmarker/tools/` directory of the B-Marker 
+        documentation contained within the `b-marker/tools/` directory of the B-Marker 
         repository.
-        「軟件」或「工具集」特指 B-Marker 代碼庫中 `bmarker/tools/` 目錄下的源代碼、二進制文件及相關文檔。
+        「軟件」或「工具集」特指 B-Marker 代碼庫中 `b-marker/tools/` 目錄下的源代碼、二進制文件及相關文檔。
         
-   1.2. The `bmarker/core/` directory is governed by a separate MIT License and is 
+   1.2. The `b-marker/core/` directory is governed by a separate MIT License and is 
         expressly excluded from this Agreement. Its use is unrestricted under MIT terms.
-        `bmarker/core/` 目錄受獨立的 MIT 許可證保護，明確排除在本協議之外。其使用遵循 MIT 條款，不受限制。
+        `b-marker/core/` 目錄受獨立的 MIT 許可證保護，明確排除在本協議之外。其使用遵循 MIT 條款，不受限制。
 
 2. GRANT OF FREE LICENSE / 免費許可授予
    Subject to the restrictions in Section 3, Licensor grants You a worldwide, 
