@@ -77,4 +77,4 @@ print(beats_to_ms(4, bpm=120.0))   # 輸出: 2000.0
 We welcome improvements and discussions for the toolkit. Please note that all contributed code is deemed to accept the commercial license agreement of this directory.
 
 ## 🤝 貢獻
-我們歡迎針對工具集的改進和討論。請注意，所有貢獻的代碼均視為接受本目錄的商業許可協議。
+我們歡迎針對工具集的改進和討論。請注意，所有貢獻的代碼均視為接受本目錄的商業許可協議。 
