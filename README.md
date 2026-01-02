@@ -1,21 +1,37 @@
 # <div align="center">B-Marker README.md English</div>
 ## <div align="center">B-Marker: Audio as Universal Time Language (Audio First, Light & Hardware Coming Soon)</div>
 
+# B-Marker Core
+Core protocol for audio time language marker generation.
+B-Marker 核心：音頻時間語言標記生成的核心協議。
+
+## 📌 Seed Marker
+Original seed commit date: 2025-11-28  
+（原始種子提交日期：2025-11-28）
+Clean history release date: 2026-01-02  
+（乾淨歷史發布日期：2026-01-02）
+
 ### 🎯 Current Focus
 We’re prioritizing the **audio-time core protocol** (including sample conversion, marker synchronization, jitter validation, etc.) to lay a solid foundation for future ecosystem expansion.
+我們優先打磨「音頻-時間核心協議」（包含樣本轉換、標記同步、抖動驗證等），為未來生態擴張奠定堅實基礎。
 
 ### 🚀 Up Next
 - Light signal time mapping mechanism
+  光信號時間映射機制
 - Hardware device synchronization integration
+  硬件設備同步集成
 
-### A Profit-Sharing Framework for Time & Audio Tool Developers —
-Where audio’s rhythmic time logic aligns with open-source collaboration and fair benefit distribution.
+### 🤝 Open-Source & Profit-Sharing Framework
+A profit-sharing framework for time / audio / visual tool developers — where audio’s rhythmic time logic aligns with open-source collaboration and fair benefit distribution.
+為時間/音頻/視覺工具開發者打造的分潤框架——讓音頻的節奏時間邏輯，與開源協作、公平分潤理念同頻。
+
+## 📝 Update Records
+Core code desensitization & comment optimization completed (2026-01-02).  
+核心代碼脫敏、註釋規範化完成（2026-01-02）。  
+For full update history and version details, please check: [CHANGELOG.md](./docs/CHANGELOG.md)  
+完整更新記錄與版本說明請查閱：[CHANGELOG.md](./docs/CHANGELOG.md))
 
 ---
-
-A profit-sharing framework for time / audio / visual tool developers —
-
-where audio’s rhythmic time logic aligns with open-source collaboration and fair benefit distribution.
 
 ## 🌟 A Warm Dream About "Time Resonance"
 

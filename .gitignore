@@ -1,13 +1,13 @@
-# Byte-compiled / optimized / DLL files
+# ==============================================================================
+# 基礎通用規則（全版本通用）
+# ==============================================================================
+# Python編譯文件
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# Distribution / packaging
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -20,188 +20,178 @@ parts/
 sdist/
 var/
 wheels/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# 虛擬環境（開發環境隔離）
+venv/
+env/
+ENV/
+*.venv/
+.venv/
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py.cover
-.hypothesis/
-.pytest_cache/
-cover/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-.pybuilder/
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-#   For a library or package, you might want to ignore these files since the code is
-#   intended to run in multiple environments; otherwise, check them in:
-# .python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# UV
-#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#uv.lock
-
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
-#poetry.lock
-#poetry.toml
-
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#   pdm recommends including project-wide configuration in pdm.toml, but excluding .pdm-python.
-#   https://pdm-project.org/en/latest/usage/project/#working-with-version-control
-#pdm.lock
-#pdm.toml
-.pdm-python
-.pdm-build/
-
-# pixi
-#   Similar to Pipfile.lock, it is generally recommended to include pixi.lock in version control.
-#pixi.lock
-#   Pixi creates a virtual environment in the .pixi directory, just like venv module creates one
-#   in the .venv directory. It is recommended not to include this directory in version control.
-.pixi
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
+# 敏感配置/API Key（重中之重）
+# 所有包含密鑰、token、私鑰的文件
+*.env
+*.env.local
+*.env.*.local
 .env
 .envrc
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+.secrets/
+secrets/
+keys/
+*.key
+*.pem
+*.p12
+api_keys.py
+configs/private_config.py
+core/configs/sensitive_config.py
 
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
+# 編輯器/IDE緩存（兼容團隊不同工具）
+# VSCode
+.vscode/
+*.code-workspace
+.history/
 
 # PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/
+*.iml
+*.iws
+*.ipr
 
-# Abstra
-# Abstra is an AI-powered process automation framework.
-# Ignore directories containing user credentials, local state, and settings.
-# Learn more at https://abstra.io/docs
-.abstra/
+# Vim
+*.swp
+*.swo
+.*.sw?
+unite/
+Session.vim
+netrwhist
+*~
 
-# Visual Studio Code
-#  Visual Studio Code specific template is maintained in a separate VisualStudioCode.gitignore 
-#  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
-#  and can be added to the global gitignore or merged into this file. However, if you prefer, 
-#  you could uncomment the following to ignore the entire vscode folder
-# .vscode/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
 
-# Ruff stuff:
-.ruff_cache/
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\\#*
 
-# PyPI configuration file
-.pypirc
+# ==============================================================================
+# 系統級垃圾文件（跨平台兼容）
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# Cursor
-#  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
-#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
-#  refer to https://docs.cursor.com/context/ignore-files
-.cursorignore
-.cursorindexingignore
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+*.tmp
+*.bak
+*.old
 
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
+# Linux
+*.swp
+.DS_Store
+.aptitude/
+.ssh/
+.bash_history
+.history
+.cache
+
+# ==============================================================================
+# 項目專屬規則（覆蓋0.1.0~3.0+所有場景）
+# ==============================================================================
+# 測試/調試文件
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.prof
+tests/debug/
+tests/tmp/
+
+# 打包/發布產物（3.0+打包也能用）
+dist/
+build/
+*.whl
+*.tar.gz
+*.zip
+*.egg-info/
+b_marker.egg-info/
+
+# 數據文件（測試/臨時數據，避免提交大文件）
+data/
+datasets/
+tmp/
+temp/
+*.csv
+*.xlsx
+*.jsonl
+*.db
+*.sqlite3
+
+# 3.0+硬件/光信號模塊專屬（預留排除項）
+# 硬件設備日志/驅動緩存
+hardware/logs/
+hardware/drivers/
+hardware/tmp/
+# 光信號校準臨時文件
+light/calibration/
+light/tmp/
+
+# 文檔臨時文件
+*.tmp.md
+*.draft.md
+wiki/草稿/
+wiki/臨時/
+to_upload*/  # 待上傳文件夾（本地審核用，不上傳）
+github_sync/internal/  # 內部審核文件
+github_sync/team/  # 團隊私有文件
+
+# 執行腳本臨時輸出
+*.out
+*.err
+run.sh.*
+run.bat.*
+
+# ==============================================================================
+# 白名單（確保必要文件不被誤排除）
+# ==============================================================================
+!*.gitignore
+!*.md
+!*.py
+!core/**/__init__.py
+!core/tests/__init__.py
+!docs/
+!README.md
+!LICENSE
+!requirements.txt

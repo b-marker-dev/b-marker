@@ -57,20 +57,43 @@ This is the **Creator Toolkit** for the B-Marker project, providing out-of-the-b
 
 ## 🚀 Quick Start
 ```python
-# After installation (e.g.: pip install b-marker-tools), or import directly from source code
-from b-marker.tools.converters import frames_to_ms, beats_to_ms
+```python
+# Option 1: From source code (current Alpha version)
+# 從源碼導入（當前Alpha版本）
+import sys
+sys.path.append("./")  # Add project root to Python path
+from core.tools.converters import frames_to_ms, beats_to_ms, batch_frames_to_ms
 
+# Option 2: From PyPI (coming soon in v1.0)
+# 未來v1.0版本PyPI安裝後導入
+# pip install b-marker
+# from b_marker.tools.converters import frames_to_ms, beats_to_ms
+
+# Basic usage
 print(frames_to_ms(24, fps=24.0))  # Output: 1000.0
 print(beats_to_ms(4, bpm=120.0))   # Output: 2000.0
+
+# Batch processing (optimized for bulk data)
+print(batch_frames_to_ms([24, 48], fps=24.0))  # Output: [1000.0, 2000.0]
 ```
 
 ## 🚀 快速開始
 ```python
-# 安裝後（例如：pip install b-marker-tools），或直接從源碼導入
-from b-marker.tools.converters import frames_to_ms, beats_to_ms
+# 方式1：從源碼導入（當前Alpha版本）
+import sys
+sys.path.append("./")  # 將項目根目錄加入Python路徑
+from core.tools.converters import frames_to_ms, beats_to_ms, batch_frames_to_ms
 
+# 方式2：PyPI安裝（v1.0版本即將支持）
+# pip install b-marker
+# from b_marker.tools.converters import frames_to_ms, beats_to_ms
+
+# 基礎使用示例
 print(frames_to_ms(24, fps=24.0))  # 輸出: 1000.0
 print(beats_to_ms(4, bpm=120.0))   # 輸出: 2000.0
+
+# 批量處理（針對大數據量優化）
+print(batch_frames_to_ms([24, 48], fps=24.0))  # 輸出: [1000.0, 2000.0]
 ```
 
 ## 🤝 Contribution

@@ -15,4 +15,4 @@ from .converters import (
     ms_to_frames,
     batch_frames_to_ms
 )
-__all__ = ['frames_to_ms', 'beats_to_ms', 'samples_to_ms', 'ms_to_frames', 'batch_frames_to_ms']'batch_frames_to_ms']
+__all__ = ['frames_to_ms', 'beats_to_ms', 'samples_to_ms', 'ms_to_frames', 'batch_frames_to_ms']
