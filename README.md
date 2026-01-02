@@ -6,13 +6,17 @@ Core protocol for audio time language marker generation.
 B-Marker 核心：音頻時間語言標記生成的核心協議。
 
 ## 📌 Seed Marker
-Original seed commit date: 2025-11-28  
+Original seed commit date: 2025-11-28
+
 （原始種子提交日期：2025-11-28）
-Clean history release date: 2026-01-02  
+
+Clean history release date: 2026-01-02
+
 （乾淨歷史發布日期：2026-01-02）
 
 ### 🎯 Current Focus
 We’re prioritizing the **audio-time core protocol** (including sample conversion, marker synchronization, jitter validation, etc.) to lay a solid foundation for future ecosystem expansion.
+
 我們優先打磨「音頻-時間核心協議」（包含樣本轉換、標記同步、抖動驗證等），為未來生態擴張奠定堅實基礎。
 
 ### 🚀 Up Next
@@ -23,6 +27,7 @@ We’re prioritizing the **audio-time core protocol** (including sample conversi
 
 ### 🤝 Open-Source & Profit-Sharing Framework
 A profit-sharing framework for time / audio / visual tool developers — where audio’s rhythmic time logic aligns with open-source collaboration and fair benefit distribution.
+
 為時間/音頻/視覺工具開發者打造的分潤框架——讓音頻的節奏時間邏輯，與開源協作、公平分潤理念同頻。
 
 ## 📝 Update Records
@@ -286,15 +291,15 @@ B-Marker 是一套專為時間與音訊工具開發者設計的分潤管理框�
 
 2. b-marker-tools（商業授權）：基於核心模組建構的工具集，聚焦音樂工具的實用整合方案（如第三方平台對接、企業級客製化工具、批次處理外掛等）。個人開發者免費使用，企業商用需支付授權費用。
 
-3. b-marker-pro（訂閱制授權）：框架的進階付費版本，提供雲端同步、專業音訊分析、專屬音效庫、自訂分潤數據儀表板等高階增值功能。採用分級訂閱制（個人/團隊/企業方案），满足專業開發者與商業團隊的多元需求。
+3. b-marker-pro（訂閱制授權）：框架的進階付費版本，提供雲端同步、專業音訊分析、專屬音效庫、自訂分潤數據儀表板等高階增值功能。採用分級訂閱制（個人/團隊/企業方案），滿足專業開發者與商業團隊的多元需求。
 
 - 公開透明分潤：所有收益來源、分配比例、結算週期全程公開，分潤與貢獻度緊密綁定（包含程式碼開發、測試、文件撰寫、推廣等），確保收益公平分配。
 
-- 彈性分層授權：开源核心保障專案的開放性與擴充性，商業模組則確保專案運營的永續性與貢獻者的收入來源。
+- 彈性分層授權：開源核心保障專案的開放性與擴充性，商業模組則確保專案運營的永續性與貢獻者的收入來源。
 
 - 低門檻參與貢獻：支援程式碼與非程式碼貢獻（如文件撰寫、社群支援、推廣等），新進貢獻者參與滿一個結算週期即可獲得分潤，無鎖定期限制。
 
-- 標準化协作流程：配備完整的貢獻者協議、PR 模板與 Issue 處理機制，降低协作成本，提升開發效率。
+- 標準化協作流程：配備完整的貢獻者協議、PR 模板與 Issue 處理機制，降低協作成本，提升開發效率。
 
 - b-marker-core：MIT 授權（開源，免費供所有用途使用）
 
